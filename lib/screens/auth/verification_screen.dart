@@ -71,7 +71,7 @@ class VerificationScreen extends StatelessWidget {
                 // Handle verification logic
                 Navigator.pushReplacement(
                   context,
-                  MaterialPageRoute(builder: (context) => const HomeScreen()),
+                  MaterialPageRoute(builder: (context) => HomeScreen()),
                 );
               },
               text: 'Verify Code',

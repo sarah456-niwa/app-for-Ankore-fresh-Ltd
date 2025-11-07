@@ -67,7 +67,7 @@ class ForgotPasswordScreen extends StatelessWidget {
                   if (_formKey.currentState!.validate()) {
                     Navigator.pushReplacement(
                       context,
-                      MaterialPageRoute(builder: (context) => const VerificationScreen()),
+                      MaterialPageRoute(builder: (context) => VerificationScreen()),
                     );
                   }
                 },

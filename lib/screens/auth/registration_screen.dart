@@ -128,7 +128,7 @@ class RegistrationScreen extends StatelessWidget {
                   if (_formKey.currentState!.validate()) {
                     Navigator.pushReplacement(
                       context,
-                      MaterialPageRoute(builder: (context) => const VerificationScreen()),
+                      MaterialPageRoute(builder: (context) => VerificationScreen()),
                     );
                   }
                 },
@@ -143,7 +143,7 @@ class RegistrationScreen extends StatelessWidget {
                     onPressed: () {
                       Navigator.pushReplacement(
                         context,
-                        MaterialPageRoute(builder: (context) => const LoginScreen()),
+                        MaterialPageRoute(builder: (context) => LoginScreen()),
                       );
                     },
                     text: 'Sign In',

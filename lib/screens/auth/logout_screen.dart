@@ -45,7 +45,7 @@ class LogoutScreen extends StatelessWidget {
                 onPressed: () {
                   Navigator.pushAndRemoveUntil(
                     context,
-                    MaterialPageRoute(builder: (context) => const AuthScreen()),
+                    MaterialPageRoute(builder: (context) => AuthScreen()),
                     (route) => false,
                   );
                 },

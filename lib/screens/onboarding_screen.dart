@@ -53,7 +53,7 @@ class OnboardingScreen extends StatelessWidget {
                     onPressed: () {
                       Navigator.pushReplacement(
                         context,
-                        MaterialPageRoute(builder: (context) => const AuthScreen()),
+                        MaterialPageRoute(builder: (context) => AuthScreen()),
                       );
                     },
                     style: ElevatedButton.styleFrom(
