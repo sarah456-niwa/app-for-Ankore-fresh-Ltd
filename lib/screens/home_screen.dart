@@ -1,4 +1,3 @@
-// screens/home_screen.dart
 import 'package:flutter/material.dart';
 import '../widgets/bottom_nav_bar.dart';
 import 'auth/logout_screen.dart';
@@ -21,7 +20,7 @@ class HomeScreen extends StatelessWidget {
             onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => LogoutScreen()),
+                MaterialPageRoute(builder: (context) => const LogoutScreen()),
               );
             },
           ),
@@ -56,7 +55,7 @@ class HomeScreen extends StatelessWidget {
           ],
         ),
       ),
-      bottomNavigationBar: const CustomBottomNavBar(),
+      bottomNavigationBar: CustomBottomNavBar(),
     );
   }
 }

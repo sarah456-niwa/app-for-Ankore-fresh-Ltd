@@ -2,6 +2,8 @@
 import 'package:flutter/material.dart';
 import 'auth_screen.dart';
 import '../../utils/constants.dart';
+import '../home_screen.dart'; // corrected import
+
 
 class LogoutScreen extends StatelessWidget {
   const LogoutScreen({super.key});

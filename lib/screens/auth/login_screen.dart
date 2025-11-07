@@ -5,6 +5,7 @@ import '../../widgets/custom_text_form_field.dart';
 import '../../widgets/custom_elevated_button.dart';
 import '../../widgets/custom_text_button.dart';
 import '../../utils/constants.dart';
+import '../home_screen.dart'; // corrected import
 
 class LoginScreen extends StatelessWidget {
   LoginScreen({super.key});
@@ -98,7 +99,7 @@ class LoginScreen extends StatelessWidget {
                     // Handle login logic
                     Navigator.pushReplacement(
                       context,
-                      MaterialPageRoute(builder: (context) => HomeScreen()),
+                      MaterialPageRoute(builder: (context) =>const HomeScreen()),
                     );
                   }
                 },

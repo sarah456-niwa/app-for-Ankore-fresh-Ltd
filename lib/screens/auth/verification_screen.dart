@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../../widgets/custom_elevated_button.dart';
 import '../../widgets/custom_text_button.dart';
 import '../../utils/constants.dart';
+import '../home_screen.dart'; // corrected import
 
 class VerificationScreen extends StatelessWidget {
   const VerificationScreen({super.key});
@@ -71,7 +72,7 @@ class VerificationScreen extends StatelessWidget {
                 // Handle verification logic
                 Navigator.pushReplacement(
                   context,
-                  MaterialPageRoute(builder: (context) => HomeScreen()),
+                  MaterialPageRoute(builder: (context) =>const HomeScreen()),
                 );
               },
               text: 'Verify Code',

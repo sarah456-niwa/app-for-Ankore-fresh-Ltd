@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'login_screen.dart';
 import 'registration_screen.dart';
 import '../../utils/constants.dart';
+import '../home_screen.dart'; // corrected import
 
 class AuthScreen extends StatelessWidget {
   const AuthScreen({super.key});
@@ -83,7 +84,7 @@ class AuthScreen extends StatelessWidget {
                 onPressed: () {
                   Navigator.pushReplacement(
                     context,
-                    MaterialPageRoute(builder: (context) => HomeScreen()),
+                    MaterialPageRoute(builder: (context) => const HomeScreen()),
                   );
                 },
                 child: const Text(

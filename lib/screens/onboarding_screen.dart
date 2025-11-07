@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'auth/auth_screen.dart';
 import '../utils/constants.dart';
+import 'home_screen.dart';
 
 class OnboardingScreen extends StatelessWidget {
   const OnboardingScreen({super.key});

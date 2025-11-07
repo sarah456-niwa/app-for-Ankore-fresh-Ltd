@@ -5,6 +5,8 @@ import '../../widgets/custom_text_form_field.dart';
 import '../../widgets/custom_elevated_button.dart';
 import '../../widgets/custom_text_button.dart';
 import '../../utils/constants.dart';
+import '../home_screen.dart'; // corrected import
+
 
 class RegistrationScreen extends StatelessWidget {
   RegistrationScreen({super.key});
